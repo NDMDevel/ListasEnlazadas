@@ -40,12 +40,12 @@ int main()
     swap( d1 , d2 );
     printf("x = %d  y = %d\n",x,y);
     return 0;*/
-    List<double> L;
-    L.append(7.2);    //[0]
-    L.append(3.3);    //[1]
-    L.append(2.4);    //[2]
-    L.append(-5.4);   //[3]
-    L.insert(-100.5,1);
+    List L;
+    L.append(7);    //[0]
+    L.append(3);    //[1]
+    L.append(2);    //[2]
+    L.append(-5);   //[3]
+    L.insert(-100,1);
     L.print();
     for( int i=0 ; i<L.getCount() ; i++ )
         L[i] = i;

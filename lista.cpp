@@ -10,10 +10,7 @@ List::List()
 }
 List::~List()
 {
-//    node *last = header;
-//    while( last->next != nullptr )
-//        last = last->next;
-//    delete last;
+
 }
 
 node *List::getNodeByPos(int pos)
